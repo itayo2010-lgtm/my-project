@@ -91,6 +91,46 @@ main
   justify-content: start;
   background-color: rgb(133, 195, 174);
   padding: 38px;
+  flex-direction: column;
+}
+
+.headline
+{
+  display: flex;
+  justify-content: center;
+}
+
+.headline h2
+{
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+.services
+{
+  display: flex;
+}
+
+.service-wrap
+{
+  display: flex;
+  width: calc(100%/3 - 10);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 15px;
+  gap: 12px;
+}
+
+
+.service-img img
+{
+  border: 2.3px solid rgb(9, 66, 9);
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
 }
 
 
@@ -99,7 +139,7 @@ main
   display: flex;
   border: 1px solid black;
   height: 180px;
-  width: 1100px;
+  width: 1100;
   margin-bottom: 20px;
   border-radius: 5px;
 }
@@ -205,7 +245,7 @@ button img
 
 
 footer
- {
+{
   background: #040005;
   color: #fff;
   padding: 20px 0;
